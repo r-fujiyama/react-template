@@ -1,0 +1,33 @@
+{
+  "files.encoding": "utf8",
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.exclude": {
+    "**/.git": false
+  },
+  "terminal.integrated.fontFamily": "Fira Code",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.renderWhitespace": "all",
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "editor.formatOnSave": true,
+  "editor.guides.bracketPairs": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "jestrunner.jestCommand": "yarn test",
+  "jestrunner.debugOptions": {
+    "program": "${workspaceRoot}/node_modules/.bin/react-scripts",
+    "args": [
+      "test",
+      "--runInBand",
+      "--no-cache",
+      "--watchAll=false"
+    ],
+    "disableOptimisticBPs": true
+  }
+}

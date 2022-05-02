@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  react-template:
+    image: node:react-template-vscode
+    build: ./react
+    volumes:
+      - ./..:/workspace:cached
+    ports:
+      - 3000:3000
+    tty: true
